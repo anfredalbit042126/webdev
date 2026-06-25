@@ -13,7 +13,7 @@ $sql = "
     FROM address
     WHERE province IS NOT NULL
     AND TRIM(province) <> ''
-    ORDER BY prov ince ASC
+    ORDER BY province ASC
 ";
 
 $result = mysqli_query($con, $sql);
