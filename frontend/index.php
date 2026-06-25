@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/webdev/frontend/about/about.style.css">
     <link rel="stylesheet" href="/webdev/frontend/contact/contact.style.css">
 
+    <script src="/webdev/jquery.js"></script>
+
 </head>
 <body>
 
@@ -70,6 +72,8 @@ switch ($page) {
 <footer>
     <p>&copy; 2026 Aces Tagum College Inc. All Rights Reserved.</p>
 </footer>
+
+<script src="/webdev/frontend/contact/contact.js"></script>
 
 </body>
 </html>

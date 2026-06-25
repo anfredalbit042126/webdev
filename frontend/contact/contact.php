@@ -68,6 +68,3 @@ require_once __DIR__ . '/../../backend/connections.php';
         }, 3000);
     </script>
 <?php endif; ?>
-
-<script src="/webdev/jquery.js"></script>
-<script src="/webdev/frontend/contact/contact.js"></script>
