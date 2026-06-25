@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Website</title>
 
-    <link rel="stylesheet" href="/webdev/frontend/index.style.css">
-    <link rel="stylesheet" href="/webdev/frontend/home/home.style.css">
-    <link rel="stylesheet" href="/webdev/frontend/about/about.style.css">
-    <link rel="stylesheet" href="/webdev/frontend/contact/contact.style.css">
+    <link rel="stylesheet" href="/index.style.css">
+    <link rel="stylesheet" href="/home/home.style.css">
+    <link rel="stylesheet" href="/about/about.style.css">
+    <link rel="stylesheet" href="/contact/contact.style.css">
 
-    <script src="/webdev/jquery.js"></script>
-    <script src="/webdev/frontend/contact/contact.js"></script>
+
+    <script src="jquery.js"></script>
+    <script src="/contact/contact.js"></script>
 
 </head>
 <body>
@@ -45,7 +46,7 @@ $page = $_GET['page'] ?? 'home';
     </ul>
 </nav>
 
-<img src="../images/banner.jpg">
+<img src="/images/banner.jpg">
 
 <div class="main-content">
 
